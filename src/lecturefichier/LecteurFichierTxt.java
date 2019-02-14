@@ -18,6 +18,7 @@ abstract class LecteurFichierTxt implements LecteurFichier {
      */
     public boolean ouvre(){
 
+        // INDIQUEZ LE CHEMIN DU FICHIER QUE VOUS VOULEZ OUVRIR  !!!!!
         File f = new File ( "test.txt" ) ;
         return (f.exists() && f.canRead() && f.isFile());
 
@@ -29,7 +30,7 @@ abstract class LecteurFichierTxt implements LecteurFichier {
     public void litContenu(){
         
         FileInputStream in = null;
-        // Ajouter entre les () le chemin du fichier texte que l'on veut ouvrir
+        // INDIQUEZ LE CHEMIN DU FICHIER QUE VOUS VOULEZ OUVRIR !!!!!!
         File f = new File ( "test.txt" ) ;
         
         try{

@@ -4,6 +4,14 @@ public class LectureFichier {
 
     public static void main(String[] args) {
         
+        // --------------------------------------- A LIRE AVANT DE LANCER LE PROGRAMME ---------------------------/
+        //
+        // N'oubliez pas d'indiquer où se trouve le fichier que vous voulez ouvrir dans la classe abstraire LecteurFichierTxt.java
+        // Je ne fournis pas le fichier .txt car nous avions eu pour consigne de ne pas le mettre à la racine du projet
+        // Merci
+        //
+        
+        
         // On instancie nos objets
         LecteurNormal l1 = new LecteurNormal(); // = Normal
         LecteurReverse l2 = new LecteurReverse(); // = Palindrome
@@ -34,7 +42,7 @@ public class LectureFichier {
             System.out.print("Ca marche pas");
         }
         
-        
+        System.out.println("");
         // ---------------------------------- TEST 3 ----------------------------- //
         // Si notre fichier s'ouvre
         if(l3.ouvre()){
